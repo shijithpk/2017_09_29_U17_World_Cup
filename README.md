@@ -6,8 +6,6 @@ Used a modified version of the [reveal.js](http://lab.hakim.se/reveal-js/) libra
 
 Used a lot of code snippets from stackoverflow.com, have credited them in the code when possible.
 
-The slideshow is best seen on mobiles, but it should look ok on desktops too.
-
 ######CREDITS
 * The image of the Kheleo mascot on the first slide is from [FIFA](https://extranets.fifa.com/en/mediachannel/).
 * The arrow icon used at the bottom of all slides is from [Flaticon.com](https://www.flaticon.com/free-icon/forward-right-arrow-button_61100).

@@ -3934,26 +3934,32 @@ if (error) {console.log(error); return;}
 
 
 
-var svg_credits = svg_canvas
-							.append('svg') // or 'g'?
+
+var svg_credits = svg_canvas 
+							.append('svg')
 							.attr('y', 83.5 * vh)
-							.attr('x', width_canvas - margin_canvas.left)
+							.attr('x', width_canvas/2 - (6*vh))
+							.attr("width", 12*vh)
+							.attr("height", 3.3*vh)
+							.append("a")
+							.attr("xlink:href", "https://github.com/shijithpk/2017_09_29_U17_World_Cup")
 							;
 
 				svg_credits
-							.append("a")
-							.attr("xlink:href", "https://github.com/shijithpk/2017_09_29_U17_World_Cup")
 							.append('text')
+							.attr('text-anchor','start')
 							.text('CREDITS')
 							.attr('fill','#4f4f4f')
 							.attr('font-size', 3*vh)
 							.style('font-weight','bold')
 							.attr('alignment-baseline','hanging')
-							.attr('text-anchor','middle')
 							.style('text-decoration','underline')
-							//.style('text-decoration-color','#4f4f4f')
-							//.style('text-decoration-style','solid')
 							;
+
+
+
+
+							
 
 /*
 
