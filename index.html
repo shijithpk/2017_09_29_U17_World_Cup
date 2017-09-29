@@ -248,7 +248,6 @@ var svg_arrow = svg_canvas
 				//.append("g")
 			    ;
 
-
 		d3.xml("svgs/up_arrow_min.svg", function(error, xml) {
         if (error) {console.log(error); return;}
 
@@ -273,6 +272,7 @@ var svg_logo = svg_canvas
 				//.attr("class","footer")
 				//.style("class","footer")
 				.attr('x', 3 * vh)
+ 			    //.attr('x', 42 * vh)
  			    .attr("width", width_logo)
 			    .attr("height", height_logo)
 				//.append("g")
@@ -3955,13 +3955,7 @@ var svg_credits = svg_canvas
 							.attr('alignment-baseline','hanging')
 							.style('text-decoration','underline')
 							;
-
-
-
-
 							
-
-/*
 
 var width_logo = 12 * vh,
     height_logo = 4 * vh
@@ -3990,7 +3984,6 @@ var svg_logo = svg_canvas
 				  .appendChild(svg_node)
 				  ;
 		});
-*/
 	
 	} );
 
