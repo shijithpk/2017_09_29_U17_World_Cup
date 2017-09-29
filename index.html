@@ -3937,23 +3937,25 @@ if (error) {console.log(error); return;}
 var svg_credits = svg_canvas
 							.append('svg') // or 'g'?
 							.attr('y', 83.5 * vh)
-							.attr('x', 19 * vh)
+							.attr('x', width_canvas - margin_canvas.left)
 							;
 
 				svg_credits
 							.append("a")
 							.attr("xlink:href", "https://github.com/shijithpk/2017_09_29_U17_World_Cup")
 							.append('text')
-							.text('CODE & CREDITS')
+							.text('CREDITS')
 							.attr('fill','#4f4f4f')
 							.attr('font-size', 3*vh)
 							.style('font-weight','bold')
 							.attr('alignment-baseline','hanging')
-							.attr('text-anchor','start')
+							.attr('text-anchor','middle')
 							.style('text-decoration','underline')
 							//.style('text-decoration-color','#4f4f4f')
 							//.style('text-decoration-style','solid')
 							;
+
+/*
 
 var width_logo = 12 * vh,
     height_logo = 4 * vh
@@ -3982,6 +3984,7 @@ var svg_logo = svg_canvas
 				  .appendChild(svg_node)
 				  ;
 		});
+*/
 	
 	} );
 
