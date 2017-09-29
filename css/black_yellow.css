@@ -56,6 +56,12 @@ body {
   
 }
 
+.reveal .footer {
+  position: absolute;
+  bottom: 1em;
+}
+
+
 /*drop shadow for plus/ minus sign */
 
 .reveal .shadow {
