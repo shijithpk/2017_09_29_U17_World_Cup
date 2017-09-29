@@ -6,7 +6,7 @@ Used a modified version of the [reveal.js](http://lab.hakim.se/reveal-js/) libra
 
 Used a lot of code snippets from stackoverflow.com, have credited them in the code when possible.
 
-######CREDITS
+##### CREDITS
 * The image of the Kheleo mascot on the first slide is from [FIFA](https://extranets.fifa.com/en/mediachannel/).
 * The arrow icon used at the bottom of all slides is from [Flaticon.com](https://www.flaticon.com/free-icon/forward-right-arrow-button_61100).
 * The card icon on the 8th slide talking about yellow & red cards is from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yellow_card.svg).
