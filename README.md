@@ -1,4 +1,4 @@
-This is the code and data for a slideshow on the Football Under-17 World Cup published on [wionews.com](http://projects.wionews.com/how-is-u-17-world-cup-different/).
+This is the code and data for a [slideshow](http://projects.wionews.com/how-is-u-17-world-cup-different/) on the Football Under-17 World Cup published on wionews.com.
 
 All the data is taken from [Technical Study Group reports](http://www.fifa.com/about-fifa/official-documents/development/technical-study-group-reports/index.html) published by FIFA after every tournament. Specifically, I used the reports on the World Cup in Brazil in [2014](http://resources.fifa.com/mm/document/footballdevelopment/technicalsupport/02/42/15/40/2014fwc_tsg_report_15082014web_neutral.pdf#page=173) and the Under-17 World Cup in Chile in [2015](http://resources.fifa.com/mm/document/footballdevelopment/technicalsupport/02/74/76/76/fifau-17chile2015web_neutral.pdf#page=98).
 
